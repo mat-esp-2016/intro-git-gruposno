@@ -1,8 +1,11 @@
-1 - Distribuir as cartas em cinco posições numeradas de 1 a 5
-2 - virar a carta na posição 1 e 2,  se a carta na posição 1 > q na posição 2, trocar as cartas de posição,  vira-las para baixo
-3 - virar a carta na posição 2 e 3, se a carta na posição 2> q na posição 3, trocar as cartas de posição,  vira-las para baixo
-4 - virar as cartas na posição 3 e 4,se a carta na posição 3> q na posição 4, trocar as cartas de posição., vira-las para baixo
-5 - virar as cartas na posição 4 e 5,  se a carta na posição 4> q na posição 5, trocar as cartas de posição,  vira-las para baixo
-6 - Repetir os processos de 2 a 4
-7 - Repetir os procesos 2 e 3
-8 - Por fim, repetir o processo 2, Agora suas cartas estão em ordem crescente.
+Distribuir as n cartas em n posições, de um 1 a n
+Virar a primeira carta na posição x=1 e a segunda na posição y= x+1
+Verificar se x>y, caso seja trocar as cartas de posição
+vira-las para baixo
+Virar as cartas na posição x=y(anterior) e y=x+1
+verificar se x>y, caso seja trocar as cartas de posição
+vira-las para baixo
+repetir o processo 5,6 e 7 até y=b, sendo b=n
+repetir o processo de 2 a 7 até y=b sendo b=b-1
+repetir o processo 9 ate y=b sendo b=1
+Agora suas cartas estarão na ordem crescente!

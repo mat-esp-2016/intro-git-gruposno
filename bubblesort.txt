@@ -1,11 +1,6 @@
-Distribuir as n cartas em n posições, de um 1 a n
-Virar a primeira carta na posição x=1 e a segunda na posição y= x+1
-Verificar se x>y, caso seja trocar as cartas de posição
-vira-las para baixo
-Virar as cartas na posição x=y(anterior) e y=x+1
-verificar se x>y, caso seja trocar as cartas de posição
-vira-las para baixo
-repetir o processo 5,6 e 7 até y=b, sendo b=n
-repetir o processo de 2 a 7 até y=b sendo b=b-1
-repetir o processo 9 ate y=b sendo b=1
-Agora suas cartas estarão na ordem crescente!
+n cartas, numeradas de 1 a n
+  para a carta final indo de n-1 até 2, de -1 em -1
+    para a carta indo de 1 até carta final, de 1 em 1
+      desvirar carta i e a carta i+1
+        se o valor da carta i > valor da carta i+1, troqueas de lugar
+      virar a carta i e a carta i+1

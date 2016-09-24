@@ -1,0 +1,8 @@
+1- Distribuir as n cartas nas posiçoes em escala numérica de 1 a n
+2- Vire a carta na posição x, onde x =1 e compare-a com as demais cartas, uma a uma, em ordem crescente. Mantendo as cartas na mesma posição se a carta na posição x for de menor valor, caso não inverta elas de posição.
+3- Vire a cartana posição x= x+1 e compare-a com as demais cartas, uma a uma, em ordem crescente. Mantendo as cartas na mesma posição se a carta na posição x for de menor valor, caso não inverta elas de posição.
+4 - Repita o processo 3 até x=n-1.
+
+
+
+
